@@ -2,6 +2,7 @@ import { CardProyecto } from "../components/CardProyecto";
 import { FaBootstrap, FaHtml5, FaCss3Alt, FaJs,FaJava, FaTerminal } from "react-icons/fa";
 import { SiIntellijidea } from "react-icons/si";
 import portada1 from "../assets/portada1.png"
+import MetaTrack3 from "../assets/MetaTrack3.jpg"
 
 
 const proyectos = [
@@ -11,9 +12,9 @@ const proyectos = [
     descripcion:
       "Aplicación para crear objetivos y metas. A partir de las metas se crean hábitos. En este proyecto se muestra el manejo del DOM.",
     tecnologias: [FaHtml5, FaCss3Alt, FaJs, FaBootstrap],
-    web: "#",
-    github: "#",
-    imgProyecto: portada1, 
+    web: "https://github.com/Lilisp16/MetaTrack.git",
+    github: "https://github.com/Lilisp16/MetaTrack.git",
+    imgProyecto: MetaTrack3, 
   },
   {
     titulo: "Carrito de Compras",
@@ -31,8 +32,8 @@ const proyectos = [
     descripcion:
       "Aplicación desarrollada en Java puro, orientada a la gestión de reservas desde consola. Implementa POO, uso de ArrayList y lógica de negocio para crear, listar, editar y eliminar reservas.",
     tecnologias: [FaJava, SiIntellijidea, FaTerminal],
-    web: "#",
-    github: "#",
+    web: "https://github.com/Lilisp16/Java10PooAvanzado.git",
+    github: "https://github.com/Lilisp16/Java10PooAvanzado.git",
     imgProyecto: portada1,
   },
   {

@@ -16,7 +16,7 @@ export function CardProyecto({ proyecto }) {
 
 
 
-        {/* Iconos web y github sobre la imagen */}
+        {/* Iconos web y github */}
         {(web || github) && (
           <div className="absolute top-2 right-2 flex gap-2 text-white text-lg">
             {web && (

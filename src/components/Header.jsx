@@ -9,11 +9,8 @@ export default function Header() {
       className="relative h-[500px] w-full pt-20"
     >
       {/* Imagen de fondo */}
-      <img
-        src={portada1}
-        alt="Hero"
-        className="absolute inset-0 w-full h-full object-cover"
-      />
+      <img src={portada1} alt="Hero"
+        className="absolute inset-0 w-full h-full object-cover"/>
 
       {/* Overlay */}
       <div className="absolute inset-0 bg-gradient-to-b from-[#26DAEB]/90 to-[#F5F5DC]/40 z-10"></div>
