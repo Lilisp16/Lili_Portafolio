@@ -8,7 +8,7 @@ export default function Acerca() {
   // Array de principios con icono, título y descripción
   const principios = [
     { icon: <FaPrayingHands size={28} color="#26DAEB" />, titulo: "Fe y propósito", descripcion: "Mi fe guía mi trabajo, buscando crear con integridad y excelencia." },
-    { icon: <FaLaptopCode size={28} color="#26DAEB" />, titulo: "Pasión técnica", descripcion: "Amo el desarrollo y el aprendizaje continuo de nuevas tecnologías." },
+  
     { icon: <FaLightbulb size={28} color="#26DAEB" />, titulo: "Creatividad", descripcion: "Resolver problemas complejos con soluciones innovadoras y elegantes." },
     { icon: <FaUsers size={28} color="#26DAEB" />, titulo: "Colaboración", descripcion: "Trabajo en equipo con empatía, comunicación clara y respeto." },
   ];
@@ -18,7 +18,7 @@ export default function Acerca() {
       <div className="max-w-6xl mx-auto px-4 w-full">
 
         {/* Título */}
-        <div className="text-center mb-16">
+        <div className="text-center mb-12">
           <h2 className="text-3xl font-semibold text-mi-gris-texto">Acerca de mí</h2>
           <div className="w-20 h-1 bg-gradient-to-r from-mi-azul-neon to-mi-beige mx-auto rounded-full"></div>
         </div>
@@ -89,31 +89,32 @@ export default function Acerca() {
             </div>
 
             {/* Acerca de mí */}
-            <div className="bg-white rounded-lg shadow-md p-6 hover:shadow-xl transition-all duration-300">
-              <div className="space-y-4 text-mi-gris-texto">
-                <h3 className="text-xl font-semibold">Hola, soy Lili</h3>
-                <p className="text-lg leading-7">
-                  Soy una mujer apasionada por la tecnología, la lógica y el aprendizaje constante. 
-                  Mi fe en Dios guía mi vida y mi trabajo, inspirándome a avanzar con propósito, disciplina y gratitud.
-                </p>
-                <p className="text-lg leading-7">
-                  Recientemente completé un Bootcamp de Desarrollo Web Full Stack Junior con énfasis en Java, donde desarrollé 
-                  proyectos prácticos que me permitieron aplicar conceptos fundamentales de backend y frontend. 
-                  Durante este proceso adquirí experiencia construyendo aplicaciones web, resolviendo problemas reales y trabajando con tecnologías como Java y Spring Boot.
-                </p>
-                <p className="text-lg leading-7">
-                  Aunque estoy iniciando mi trayectoria profesional en el desarrollo de software, me estoy enfocando en crecer como desarrolladora backend, especialmente con Java, ya que disfruto comprender la arquitectura interna de las aplicaciones y crear soluciones eficientes y bien estructuradas.
-                </p>
-                <p className="text-lg leading-7">
-                Soy una profesional en constante aprendizaje, enfocada en aportar valor en cada proyecto. La tecnología, para mí, es una herramienta para crear soluciones con visión ética y humana.
-              </p>
 
-                {/* Botones */}
-                <div className="flex justify-center gap-2 mt-4">
-                  <Button variant="contactar" href="#contacto" />
-                </div>
-              </div>
-            </div>
+      <div className="bg-white rounded-lg shadow-md p-6 hover:shadow-xl transition-all duration-300">
+        <div className="space-y-4 text-mi-gris-texto">
+          <h3 className="text-xl font-semibold">Hola, soy Lili</h3>
+          
+          <p className="text-lg leading-7">
+            Soy una mujer apasionada por la tecnología, la lógica y el aprendizaje constante. Mi fe en Dios guía mi vida y mi trabajo, inspirándome a avanzar con propósito y disciplina.
+          </p>
+
+          <p className="text-lg leading-7">
+            Recientemente completé un Bootcamp de Desarrollo Web Full Stack Junior, donde desarrollé proyectos prácticos aplicando conceptos de <strong>backend</strong> y <strong>frontend</strong> con tecnologías como <strong>Java</strong> y <strong>Spring Boot</strong>. Esta experiencia me permitió resolver problemas reales y construir aplicaciones web funcionales.
+          </p>
+
+          <p className="text-lg leading-7">
+            Actualmente me enfoco en crecer como desarrolladora <strong>backend</strong>, disfrutando comprender la arquitectura interna de las aplicaciones y crear soluciones eficientes y bien estructuradas. Mi objetivo es aportar valor en cada proyecto usando la tecnología de manera ética y humana.
+          </p>
+
+          {/* Botón de contacto */}
+          <div className="flex justify-center gap-2 mt-4">
+            <Button variant="contactar" href="#contacto" />
+          </div>
+        </div>
+      
+      </div>
+
+
 
           </div>
 

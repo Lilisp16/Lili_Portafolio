@@ -3,7 +3,7 @@ export default function Reflexion() {
     <section id="reflexion" className="min-h-screen bg-white flex flex-col items-center justify-center p-6"
     >
       {/* Título */}
-      <div className="text-center mb-12">
+      <div className="text-center mb-5">
         <h2 className="text-3xl font-semibold text-mi-gris-texto">Reflexión y Visión</h2>
         <div className="w-20 h-1 bg-gradient-to-r from-mi-azul-neon to-mi-beige mx-auto rounded-full mt-2"></div>
       </div>

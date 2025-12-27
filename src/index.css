@@ -75,7 +75,13 @@ button:focus-visible {
   }
 }
 
-
+.letra {
+  color: rgb(92, 91, 91);
+  font-weight: bold;
+}
+.letra:hover {
+  color: rgb(161, 155, 155)
+}
 
 
 /*______________________________*/

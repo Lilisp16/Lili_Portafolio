@@ -29,7 +29,7 @@ export default function Habilidades() {
       </p>
 
       {/* Lista de habilidades */}
-      <div className="w-full max-w-2xl space-y-6">
+      <div className="w-full max-w-2xl space-y-6 ">
         {habilidades.map((h, i) => (
           <div key={i}>
             {/* Nombre + Icono + Porcentaje */}

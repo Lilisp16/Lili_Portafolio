@@ -1,8 +1,11 @@
 import { CardProyecto } from "../components/CardProyecto";
 import { FaBootstrap, FaHtml5, FaCss3Alt, FaJs,FaJava, FaTerminal } from "react-icons/fa";
 import { SiIntellijidea } from "react-icons/si";
-import portada1 from "../assets/portada1.png"
-import MetaTrack3 from "../assets/MetaTrack3.jpg"
+import MetaTrack from "../assets/MetaTrack.png";
+import pagos from "../assets/pagos.png";
+import reservas from "../assets/reservas.png";
+import carrito from "../assets/carrito.png";
+
 
 
 const proyectos = [
@@ -14,7 +17,7 @@ const proyectos = [
     tecnologias: [FaHtml5, FaCss3Alt, FaJs, FaBootstrap],
     web: "https://github.com/Lilisp16/MetaTrack.git",
     github: "https://github.com/Lilisp16/MetaTrack.git",
-    imgProyecto: MetaTrack3, 
+    imgProyecto: MetaTrack, 
   },
   {
     titulo: "Carrito de Compras",
@@ -24,7 +27,7 @@ const proyectos = [
     tecnologias: [FaHtml5, FaCss3Alt, FaJs, FaBootstrap],
     web: "#",
     github: "#",
-    imgProyecto: portada1,
+    imgProyecto: carrito,
   },
   {
     titulo: "Sistema de Reservas",
@@ -34,7 +37,7 @@ const proyectos = [
     tecnologias: [FaJava, SiIntellijidea, FaTerminal],
     web: "https://github.com/Lilisp16/Java10PooAvanzado.git",
     github: "https://github.com/Lilisp16/Java10PooAvanzado.git",
-    imgProyecto: portada1,
+    imgProyecto: reservas,
   },
   {
     titulo: "Sistema de Pagos",
@@ -44,14 +47,14 @@ const proyectos = [
     tecnologias: [FaJava, SiIntellijidea, FaTerminal],
     web: "#",
     github: "#",
-    imgProyecto: portada1,
+    imgProyecto: pagos,
   },
 ];
 
 export default function Portafolio() {
   return (
     <section id="portafolio" className="min-h-screen bg-[#fffff079] flex flex-col items-center py-10">
-      <div className="mb-10 text-center">
+      <div className="mb-12 text-center">
         <h2 className="text-3xl font-semibold text-mi-gris-texto">Mi Portafolio</h2>
         <div className="w-20 h-1 bg-gradient-to-r from-mi-azul-neon to-mi-beige mx-auto rounded-full"></div>
       </div>

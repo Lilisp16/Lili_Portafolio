@@ -21,7 +21,7 @@ export default function DescargarmiCV() {
       </p>
 
       {/* Botón de descarga */}
-      <Button variant="descargar-cv"  href="/CV.pdf" />
+      <Button variant="descargar-cv"  href={`${import.meta.env.BASE_URL}CV.pdf`}/>
     </div>
   );
 }

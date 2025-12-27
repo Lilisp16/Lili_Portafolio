@@ -1,6 +1,7 @@
 import Navbar from "./Navbar";
 import portada1 from "../assets/trigo.png";
 import { FaEnvelope, FaMapMarkerAlt, FaArrowDown } from "react-icons/fa"; // Importando iconos
+import { Button } from "./Button";
 
 export default function Header() {
   return (
@@ -22,38 +23,33 @@ export default function Header() {
       <div className="relative z-20 flex flex-col items-center justify-center h-full text-center px-6">
 
         {/* Rol */}
-        <div className="inline-flex items-center gap-2 px-4 py-2 bg-white/20 backdrop-blur-md rounded-full mb-6 border border-white/30">
+        <div className="inline-flex items-center gap-2 px-4 py-2 bg-white/20 backdrop-blur-md  mb-6  border-white/30">
           <span className="text-white/90">Desarrolladora Backend</span>
         </div>
 
         {/* Título */}
-        <h1 className="text-[#5d5551] text-2xl md:text-4xl font-bold">
+        <h1 className="text-[#e6e6e6] text-2xl md:text-4xl font-bold">
           Creando soluciones con pasión y propósito
         </h1>
 
-        {/* Botones principales */}
+        {/* Botones principales   4ok */}
         <div className="flex gap-4 mt-6">
-          <a
-            href="#portafolio"
-            className="bg-[#00FFFF]/60 hover:bg-[#00FFFF] text-white px-4 py-2 transition-all duration-300 hover:scale-105 hover:shadow-lg rounded-lg"
-          >
-            Ver mi trabajo
-          </a>
 
-          <a
-            href="#acerca"
-            className="bg-[#F5F5DC]/70 hover:bg-[#F5F5DC] text-gray-700 px-4 py-2 transition-all duration-300 hover:scale-105 hover:shadow-lg rounded-lg"
-          >
-            Conoce más
-          </a>
+<Button variant="ver-mi-trabajo" href="#portafolio"/>
+
+
+       <Button variant="descargar-cv-hero" href={`${import.meta.env.BASE_URL}CV.pdf`}/>
+
+
+
         </div>
 
-        {/* Descargar CV con flecha animada */}
+        {/* contacto con flecha animada */}
         <a
-          href="#cv"
+          href="#footer"
           className="mt-10 flex flex-col items-center gap-2 text-white hover:text-[#00FFFF] transition-colors"
         >
-          <span className="font-semibold text-lg">Descargar CV</span>
+          <span className="font-semibold text-lg">Conectemos</span>
           <FaArrowDown className="animate-bounce w-6 h-6" />
         </a>
 
